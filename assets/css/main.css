@@ -1,0 +1,277 @@
+/* ===== MINIMAL 2010s STYLE CSS ===== */
+/* Light, fast, old-school web design - Signabroam Dx */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== MINIMAL 2010s STYLE CSS ===== */
+/* Light, fast, old-school web design - Signabroam Dx */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 15px 0 10px 0;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+nav {
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+ul, ol {
+    margin: 10px 0 10px 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button, .button {
+    color: black;
+    border: 1px solid;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+}
+
+footer {
+    background: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+}
+
+th {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tr:hover {
+    background: #f0f0f0;
+}
+
+input, textarea, select {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border: 1px solid #0066cc;
+    outline: none;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6b00cc;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.header-logo img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.header-text {
+    position: relative;
+    z-index: 2;
+}
+
+.section-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.section-list li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.section-list li:hover {
+    background: #f0f0f0;
+}
+
+.section-list a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-list p {
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    nav a {
+        margin: 0 8px;
+        font-size: 12px;
+    }
+
+    .header-logo img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    section {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    button, .button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

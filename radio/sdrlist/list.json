@@ -1,0 +1,53 @@
+[
+        {
+        "name": "KiwiSDR | 0 - 30 MHz",
+        "type": "kiwisdr",
+        "location": "Warsaw, Poland",
+        "maplocation": {
+            "lat": 52.275807, 
+            "lon": 21.064120
+        },
+        "link": "https://buzzderkiwi.kiwisdr.fr/"
+    },
+    {
+        "name": "OpenWebRX+ | [UWU SDR]",
+        "type": "openwebrx",
+        "location": "Eugene, Oregon, USA",
+        "maplocation": {
+            "lat": 44.0,
+            "lon": -123.0
+        },
+        "link": "https://uwusdr.kiwisdr.fr/"
+    },
+    {
+        "name": "PhantomSDR | F5430SWL PhantomSDR",
+        "type": "websdr",
+        "location": "Péronne, Hauts-de-France, France",
+        "maplocation": {
+            "lat": 49.929596, 
+            "lon": 2.9299995
+        },
+        "link": "https://phantom.kiwisdr.fr/"
+    },
+    {
+        "name": "OpenwebRX+ | F5430SWL OpenWebRX+",
+        "type": "openwebrx",
+        "location": "Péronne, Hauts-de-France, France",
+        "maplocation": {
+            "lat": 49.929183, 
+            "lon": 2.9314184
+        },
+        "link": "https://sdr.kiwisdr.fr/"
+    },
+    {
+        "name": "NovaSDR | F5430SWL NovaSDR",
+        "type": "websdr",
+        "location": "Péronne, Hauts-de-France, France",
+        "maplocation": {
+            "lat": 49.929290, 
+            "lon": 2.9314290
+        },
+        "link": "https://novasdr.kiwisdr.fr/"
+    }
+]
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Signabroam Dx - Products</title>
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Signabroam Dx | Products" />
+    <meta property="og:description" content="Signabroam Dx - Radio products and plugins for your SDR equipment." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://dx.signabroam.ovh/radio/products/" />
+    <meta property="og:image" content="http://dx.signabroam.ovh/assets/img/og-image.png" />
+
+    <!-- Favicon & Styles -->
+    <link rel="icon" type="image/x-icon" href="http://dx.signabroam.ovh/assets/img/favicon.ico" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    
+    <style>
+        
+        .lang-btn.sel {
+            background: linear-gradient(135deg, black 0%, #00ddff 100%);
+            border-color: black;
+            color: #0a0e27;
+            box-shadow: 0 8px 25px rgba(0, 255, 204, 0.4);
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-text">
+            <h1>Signabroam Dx</h1>
+            <p id="products-subtitle">Produits & Extensions Radio Professionnels</p>
+            
+            <!-- Language Selector Removed -->
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="http://dx.signabroam.ovh/" id="nav-home">Home</a>
+        <a href="#produits" id="nav-products">Produits</a>
+        <a href="#contact" id="nav-contact">Contact</a>
+    </nav>
+
+        <section id="produits">
+            <h2 id="products-title">📦 Available Products</h2>
+
+            <ul class="section-list">
+                <li>
+                    <h3 style="color: black; margin-top: 0;" id="products-colormap">🎨 SDR Console Color Palettes</h3>
+                    <p id="products-colormap-desc">
+                        Professional collection of colormaps for SDR Console waterfall display.
+                        These palettes provide optimal contrast and exceptional readability for your reception sessions.
+                    </p>
+                    <p style="font-size: 0.95em; color: #a8d8ff; margin-top: 1em;">
+                        <strong id="products-included">Included palettes:</strong> KiwiSDR, Vitrado, Persuvo
+                    </p>
+                    <a href="./sdrconsole/ColorMap_V1.0.xml" 
+                       onclick="forceDownload(event)" 
+                       class="button">
+                      ⬇️ Download v1.0
+                    </a>
+
+                   <script>
+                     function forceDownload(e) {
+                     e.preventDefault();
+                     const link = document.createElement('a');
+                           link.href = './sdrconsole/ColorMap_V1.0.xml';
+                           link.download = 'ColorMap_V1.0.xml';
+                           link.click();
+                     }
+                  </script>
+                </li>
+            </ul>
+
+            <div class="radio-dial"></div>
+
+            <!-- Additional Info -->
+            <div style="margin-top: 2em; padding: 1.5em; background: rgba(0, 200, 255, 0.08); border-left: 4px solid black; border-radius: 8px;">
+                <h3 style="margin-top: 0; color: black;" id="products-coming">📋 Coming Soon</h3>
+                <p id="products-coming-desc">
+                    More innovative radio products and plugins will be coming very soon.
+                    Stay tuned for the latest updates!
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <span id="footer-text">Created by</span> <strong id="footer-studio">Discode Studio</strong> <span id="footer-heart">with ❤️ for the global radio community</span><br />
+            <em id="footer-note">🔗 Independent Radio Tools Platform</em>
+        </p>
+    </footer>
+    
+    <!-- Translation Script -->
+    <script>
+        // Translations removed
+    </script>
+</body>
+</html>

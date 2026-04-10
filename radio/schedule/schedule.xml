@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+    <entry>
+        <name>The pip day (Nov - Dec - Jan - Feb)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>0530</hour>
+        <com>Frequency Switch to day freq for the pip</com>
+        <freq>5448 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The pip day (Mar - Apr)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>0430</hour>
+        <com>Frequency Switch to day freq for the pip</com>
+        <freq>5448 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The pip day (May - Jun - Jul - Aug)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>0300</hour>
+        <com>Frequency Switch to day freq for the pip</com>
+        <freq>5448 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The pip day (Sep - Oct)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>0430</hour>
+        <com>Frequency Switch to day freq for the pip</com>
+        <freq>5448 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The pip night (Nov - Dec - Jan - Feb)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>1400</hour>
+        <com>Frequency Switch to night freq for the pip</com>
+        <freq>3756 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The pip night (Mar - Apr)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>1600</hour>
+        <com>Frequency Switch to night freq for the pip</com>
+        <freq>3756 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The pip night (May - Jun - Jul - Aug)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>1730</hour>
+        <com>Frequency Switch to night freq for the pip</com>
+        <freq>3756 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The pip night (Sep - Oct)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>1530</hour>
+        <com>Frequency Switch to night freq for the pip</com>
+        <freq>3756 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The Squeaky Wheel day (Nov - Dec - Jan - Feb)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>0600</hour>
+        <com>Frequency Switch to day freq for tsw</com>
+        <freq>5367 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The Squeaky Wheel day (Mar - Apr)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>0500</hour>
+        <com>Frequency Switch to day freq for tsw</com>
+        <freq>5367 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The Squeaky Wheel day (May - Jun - Jul - Aug)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>0430</hour>
+        <com>Frequency Switch to day freq for tsw</com>
+        <freq>5367 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The Squeaky Wheel day (Sep - Oct)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>0500</hour>
+        <com>Frequency Switch to day freq for tsw</com>
+        <freq>5367 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The Squeaky Wheel night (Nov - Dec - Jan - Feb)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>1410</hour>
+        <com>Frequency Switch to night freq tsw</com>
+        <freq>3363.5 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The Squeaky Wheel night (Mar - Apr)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>1545</hour>
+        <com>Frequency Switch to night freq for tsw</com>
+        <freq>3363.5 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The Squeaky Wheel night (May - Jun - Jul - Aug)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>1830</hour>
+        <com>Frequency Switch to night freq for tsw</com>
+        <freq>3363.5 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+    <entry>
+        <name>The Squeaky Wheel night (Sep - Oct)</name>
+        <day>mon,tue,wed,thu,fri,sat,sun</day>
+        <hour>1500</hour>
+        <com>Frequency Switch to night freq for tsw</com>
+        <freq>3363.5 kHz</freq>
+        <mode>USB</mode>
+    </entry>
+</schedules>
